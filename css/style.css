@@ -1,0 +1,65 @@
+/* style.css */
+
+body {
+  font: 16px/1.5 sans-serif;
+}
+
+header {
+  margin-top: 60px;
+}
+
+nav {
+  position: fixed;
+  background-color: rgb(219,81,73);
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+}
+
+article {
+  border: 2px solid #333;
+  min-height: 500px;
+  position: relative;
+}
+  
+div {
+  width: 200px;
+  height: 200px;
+}
+
+#relative em {
+  background-color: #ccc;
+  position: relative;
+  top:-20px;
+  left: 30px;
+}
+
+#red {
+  background-color: red;
+  position: absolute;
+  bottom: 0;
+  right: 20px;
+}
+
+#yellow {
+  background-color: yellow;
+  position: absolute;
+  top: 20px;
+  right: 0px;
+}
+
+#green {
+  background-color: green;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+#blue {
+  background-color: blue;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
